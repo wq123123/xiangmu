@@ -1,0 +1,322 @@
+.zong{
+	width: 100%;
+}
+.daohang{
+	width: 1200px;
+	height: 67px;
+	margin: auto;
+}
+.daohangz{
+	width: 100%;
+	background: #777777;
+	height: 67px;
+	top:0;
+	opacity: .5;
+	left: 0;
+	z-index: 999;
+}
+.ding{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	right: 0px;
+	top: 240px;
+	z-index: 9999;
+	cursor: pointer;
+	transition: all 1s 0.1s;
+}
+.img11{
+	transition:1s ;
+}
+.ding:hover .img11{
+	transform: rotateZ(180deg);
+}
+.imga{
+	width: 170px;
+	position: absolute;
+	right:-170px;
+	z-index: 8888;
+	height: 50px;
+	top: 0;
+	transition: all 1s;
+}
+.ding:hover{
+	right: -50px;
+}
+.ding:hover .imga{
+	right:50px;
+	z-index: 999;
+}
+.daohangleft{
+	float: left;
+	width: 105px;
+	height: 67px;
+}
+.daohangright{
+	float: right;
+	height: 67px;
+}
+.daohangright ul{
+	list-style: none;
+	height: 67px;
+}
+.daohangright ul li{
+	float: left;
+	height: 67px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 67px;
+	padding: 0 15px;
+	color: #FFFFFF;
+}
+.daohangright a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.zhuti{
+	width: 1200px;
+	height: 46px;
+	margin: auto;
+	margin-top: 30px;
+}
+.zhutishang{
+	width: 1200px;
+	height: 45px;
+	
+}
+.zhuti_xia{
+	width: 1200px;
+	height: 45px;
+	
+}
+.left{
+	float: left;
+	width: 71px;
+	line-height: 45px;
+	color: #CCCCCC;
+	height:45px;
+}
+.right ul li{
+	float: left;
+	border-left: 2px solid yellow;
+	line-height: 25px;
+	margin-top: 10px;
+	text-align: center;
+	margin-right: 15px;
+	height: 25px;
+	font-size: 14px;
+	position: relative;
+	overflow: hidden;
+	z-index: 66;
+	color:black;
+	padding-left: 10px;
+	
+	
+}
+.dingwei{
+	width: 68px;
+	height: 25px;
+	position: absolute;
+	left: -68px;
+	transition: all 1s;
+	background: yellow;
+	opacity: .5;
+	opacity: 0;
+	top: 0;
+}
+.right ul li:hover .dingwei{
+	left: 0;
+	opacity: 1;
+	cursor: pointer;
+}
+.nerongz{
+	width: 1200px;
+	margin: auto;
+	
+	margin-top: 30px;
+	display: none;
+}
+.neirong{
+	float: left;
+	overflow: hidden;
+	width:390px;
+	height: 300px;
+	margin-right:15px;
+	margin-bottom:15px;
+	position: relative;
+}
+.neiding{
+	position: absolute;
+	width: 390px;
+	height: 300px;
+	background: #e8e544;
+	top: 0;
+	opacity: 0;
+	transition: all 1s;
+}
+.neirong img{
+	transition: all 2s;
+}
+.neirong:hover img{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.neirong:hover .neiding{
+	opacity: 1;
+}
+.xian{
+	width: 0px;
+	margin: auto;
+	height: 2px;
+	background: #FFFFFF;
+	transition: all 1s;
+	margin-top: 10px;
+}
+.neirong:hover .xian{
+	width: 300px;
+}
+.neirong:hover .pp{
+	transform: translateY(-6px);
+}
+.neirong:hover .ppp{
+	transform: translateY(-6px);
+}
+.pp{
+	
+	transition: all 1s;
+}
+.ppp{
+	
+	transition: all 1s;
+}
+.bottom{
+	margin-top: 30px;
+	width: 100%;
+	height:321px;
+	background: #343839;
+}
+.bottom_center{
+	width: 1100px;
+	height: 321px;
+	margin: auto;
+}
+.xian1{
+	width: 1007px;
+	height:1px;
+	margin: auto;
+	background: #CCCCCC;
+}
+.hua{
+	width: 1100px;
+	height: 404px;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+.hua_center{
+	width: 1007px;
+	height: 404px;
+}
+.leftt{
+	float: left;
+	width: 562px;
+	height: 404px;
+	background: url(../img/tu27.jpg) no-repeat center;
+}
+.rightt{
+	float: right;
+	width: 442px;
+	height:404px;
+	float: right;
+}
+.p1{
+	text-align: right;
+    line-height: 54px;
+    color: #6f6f6f;
+    font-size: 16px;
+}
+.rightt .p1{
+	transition: all 1s;
+	width:433px;
+	height: 54px;
+	text-shadow: 0 0 5px #B8860B;
+}
+.p1:hover{
+	transform:rotate(360deg);
+	
+}
+.p3{
+	text-align: right;
+    line-height: 54px;
+    color: 6f6f6f;
+    font-size: 16px;
+    width:433px;
+	height: 54px;
+}
+.p6{
+	text-align: right;
+    line-height:30px;
+    color: 6f6f6f;
+    font-size: 16px;
+}
+.bottom_sang{
+	width: 1007px;
+	height: 217px;
+}
+.foot_left{
+	width: 160px;
+	height: 193px;
+	float: left;
+}
+.pzi{
+	height: auto;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.weixin{
+	width: 135px;
+	height: 145px;
+	margin-top: 10px;
+	
+}
+.xr{
+	width: 1px;
+	height: 170px;
+	background: black;
+	float: left;
+	margin-top: 43px;
+}
+.foot_center{
+	width: 592px;
+	height: 203px;
+	float: left;
+	margin-left: 20px;
+}
+.xi{
+	width: 300px;
+	height: 1px;
+	margin-top: 15px;
+	background: black;
+}
+.foot_right{
+	width: 234px;
+	height: 203px;
+	float: right;
+}
+.foot_right a{
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.foot_di{
+	width: 1007px;
+	height: 76px;
+}
+.foot_di strong{
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-right: 6px;
+	
+}
